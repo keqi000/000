@@ -1,0 +1,480 @@
+/*semua element*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Kalam:wght@700&family=Kaushan+Script&display=swap');
+
+* {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*element body*/
+body {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans';
+
+
+}
+
+/*header*/
+nav {
+    width: 100%;
+	height: 60px;
+    margin: auto;
+    display: flex;
+    line-height: 20px;
+    position: sticky;
+    top: 0;
+    background-color: #00ADB5;
+	z-index: 100;
+}
+
+.awal {
+	width : 100%;
+	margin: auto;
+    position: relative;
+}
+
+.logo h1{
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    font-family: Brush Script MT;
+    color: #EEEEEE;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.menu {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-right: 40px;
+    padding: 10px;
+    overflow: hidden;
+	line-height: 20px;
+}
+
+nav ul li {
+	float: left;
+	margin-left: 20px;
+}
+
+nav ul li a {
+    color: #222831;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    font-size: 18px; 
+    color: #EEEEEE;
+    transition: font-size 0.2s ease; 
+}
+
+/*content 1*/
+.content {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+}
+
+section#home {
+	position: relative;
+	width: 100%;
+}
+
+.background{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	position: relative;
+}
+
+.background video {
+	position: relative;
+    object-fit: cover;
+    width: 100%;
+	height: 91vh;
+	z-index: 1;
+
+}
+
+.background h2 {
+	position: absolute;
+	color: #EEEEEE;
+	width: 100%;
+	font-size: 50px;
+	font-family: "Kaushan Script";
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*content 2*/
+section#Profil {
+	margin: 0px;
+	position: relative;
+	text-align: center;
+	z-index: 2;
+}
+
+.penjelasan_umum {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	text-align: justify;
+	align-items: center;
+	position: relative;
+}
+
+.penjelasan_umum img {
+	width: 100%;
+	object-fit: cover;
+	border-top: 2px solid #EEEEEE;
+	position: relative;
+}
+
+.penjelasan_umum h1{
+	position: absolute;
+	top: 2%;
+	left: 5%;
+	padding: 30px;
+	width: 50%;
+	font-family: Kaushan Script;
+	font-size: 50px;
+}
+
+.penjelasan1 h2{
+	font-family: Kalam;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	padding: 30px;
+	width: 50%;
+}
+
+#penjelasan1 {
+	position: absolute;
+	font-family: Alegreya;
+	border: 1px solid rgba(255, 255, 255, .2);
+	backdrop-filter: blur(30px);
+	border-radius: 10px;
+	background: transparent;
+	color: black;
+	top: 25%;
+	left: 7%;
+	padding: 20px;
+	width: 50%;
+	font-size: 17px;
+}
+
+.penjelasan2 h2{
+	font-family: Kalam;
+	position: absolute;
+	bottom: 42%;
+	right: 5%;
+	padding: 30px;
+	width: 50%;
+}
+
+#penjelasan2 {
+	position: absolute;
+	font-family: Alegreya;
+	border: 1px solid rgba(255, 255, 255, .2);
+	backdrop-filter: blur(30px);
+	border-radius: 10px;
+	background: transparent;
+	color: black;
+	padding: 20px;
+	width: 50%;
+	right: 4%;
+	bottom: 12%;
+	font-size: 17px;
+}
+
+#penjelasan2 ul li{
+	margin-left: 20px;
+}
+
+/*content 2*/
+section#Aktivitas {
+	margin: 0px;
+	position: relative;
+	text-align: center;
+	z-index: 2;
+}
+
+.penjelasan_tambahan {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	text-align: justify;
+	align-items: center;
+	position: relative;
+}
+
+.penjelasan_tambahan img {
+	width: 100%;
+	height: 110vh;
+	object-fit: cover;
+	border-top: 2px solid #EEEEEE;
+	position: relative;
+}
+
+.penjelasan_tambahan h1{
+	position: absolute;
+	top: 2%;
+	left: 5%;
+	padding: 30px;
+	width: 50%;
+	font-family: Kaushan Script;
+	font-size: 50px;
+}
+
+.penjelasan3 h2{
+	font-family: Kalam;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	padding: 30px;
+	width: 50%;
+}
+
+.penjelasan4 h2{
+	font-family: Kalam;
+	position: absolute;
+	bottom: 42%;
+	right: 5%;
+	padding: 30px;
+	width: 50%;
+}
+
+#penjelasan3 {
+	position: absolute;
+	font-family: Alegreya;
+	border: 1px solid rgba(255, 255, 255, .2);
+	backdrop-filter: blur(30px);
+	border-radius: 10px;
+	background: transparent;
+	color: black;
+	top: 25%;
+	left: 7%;
+	padding: 20px;
+	width: 50%;
+	font-size: 17px;
+}
+
+#penjelasan4 {
+	position: absolute;
+	font-family: Alegreya;
+	border: 1px solid rgba(255, 255, 255, .2);
+	backdrop-filter: blur(30px);
+	border-radius: 10px;
+	background: transparent;
+	color: black;
+	padding: 20px;
+	width: 50%;
+	right: 4%;
+	bottom: 12%;
+	font-size: 17px;
+}
+
+#penjelasan4 ul li{
+	margin-left: 20px;
+}
+
+/*content 3*/
+section#Galeri_Foto {
+	margin: 0px;
+	position: relative;
+	text-align: center;
+	z-index: 2;
+	background-color: #EEEEEE;
+	padding-bottom: 330px;
+}
+
+.umum {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	text-align: justify;
+	align-items: center;
+	position: relative;
+}
+
+.umum h1{
+	position: absolute;
+	top: 2%;
+	left: 5%;
+	padding: 30px;
+	width: 50%;
+	font-family: Kaushan Script;
+	font-size: 50px;
+}
+
+.penjelasan5 h2{
+	font-family: Kalam;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	padding: 30px;
+	width: 50%;
+	color: black;
+}
+
+h2#gp1 {
+	left: 20%;
+	top: 20%;
+}
+
+h2#gp2 {
+	left: 20%;
+	top: 53%;
+}
+
+h2#gp3 {
+	left: 20%;
+	top: 86%;
+}
+
+.penjelasan5 img{
+	top: 200px;
+	left: 8%;
+	padding: 40px 50px;
+	width: 30%;
+	height: 30vh;
+	position: relative;
+}
+
+/*content 4*/
+section#Kontak {
+	background-image: url("https://www.kopertraveler.id/wp-content/uploads/2018/02/2-3.jpg");
+	background-size: cover;
+	width: 100%;
+	margin: auto;
+    padding-bottom: 50px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-position: center;
+}
+
+h2#logo-contact {
+	text-align: left;
+	font-family: comic sans ms;
+	font-size: 40px;
+	font-weight: bold;
+	width: 14%;
+	padding-top: 40px;
+	margin-left: 100px;
+	border-bottom: 2px solid black;
+	border-color: white;
+	color: black;
+}
+
+.contact-form {
+	display: flex;
+	text-align: center;
+	background: transparent;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.contact_form {
+	width: 300px;
+	margin-top: 100px;
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, .2);
+	backdrop-filter: blur(10px);
+	border-radius: 10px;
+	padding: 80px 10px;
+	padding-bottom: 50px;
+
+}
+
+#contact-form h3{
+	margin-bottom: 20px;
+	margin-top: -50px;
+	font-size: 30px;
+	color: black;
+}
+
+input[type='text'],input[type='email'], textarea{
+    border: 1px solid rgba(255, 255, 255, .2);
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+	justify-content: center;
+	background: transparent;
+	backdrop-filter: blur(10px);
+	border-radius: 10px;
+	color: black;
+}
+
+input[type='text']::placeholder,input[type='email']::placeholder, textarea::placeholder {
+	color: black;
+}
+
+input[type='submit']{
+	width: 20%;
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+	margin-top: 20px;
+}
+
+input[type='submit']:hover{
+    background-color: #00ADB5;
+}
+
+.another_contact h3{
+	margin-bottom: 20px;
+	margin-top: 30px;
+	font-size: 30px;
+	color: black;
+}
+
+.another_contact ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	padding-right: 60px;
+}
+
+.another_contact ul li a{
+    position: relative;
+	margin-left: 55px;
+	color: black;
+}
+
+.another_contact ul li::before {
+    content: "\2022";
+    color: black;
+    font-size: 18px;
+}
+
+
+.another_contact #facebook {
+    margin-bottom: 20px;
+}
+
+.another_contact ul li a:hover {
+	border-bottom: 2px solid white;
+}
